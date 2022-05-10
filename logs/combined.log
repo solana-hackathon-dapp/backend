@@ -1,0 +1,233 @@
+{"level":"info","message":"23/Mar/2022:04:34:05 +0000 GRAPHQL query{getInfo(id:\"1\"){id name}} - 200 3.292 ms\n"}
+{"level":"info","message":"24/Mar/2022:15:58:48 +0000 GRAPHQL - - 200 1.221 ms\n"}
+{"level":"info","message":"24/Mar/2022:15:58:56 +0000 GRAPHQL query{getInfo(id:\"1\"){id name}} - 200 3.421 ms\n"}
+[2022-03-24 23:15:11][[32minfo[39m] 24/Mar/2022:16:15:11 +0000 GRAPHQL query{getInfo(id:"1"){id name}} - 200 3.233 ms
+
+[2022-03-24 23:16:33][[32minfo[39m] GRAPHQL query{getInfo(id:"1"){id name}} - 200 2.459 ms[2022-04-02 10:25:27][[32minfo[39m] GRAPHQL - - 200 1.031 ms
+
+[2022-04-02 10:26:50][[32minfo[39m] GRAPHQL query{getAllProvinces{id name}} - 200 72.773 ms
+
+[2022-04-02 10:27:17][[32minfo[39m] GRAPHQL query{getAllDistricts{id name}} - 200 266.076 ms
+
+[2022-04-02 10:27:42][[32minfo[39m] GRAPHQL query{getAllWards{id name}} - 200 2596.605 ms
+
+[2022-04-02 10:34:05][[32minfo[39m] GRAPHQL query{getOneProvince(id:"6245aa59bb1c0f9e4eec8393"){id name}} - 200 129.768 ms
+
+[2022-04-02 10:37:13][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 4.995 ms
+
+[2022-04-02 10:39:02][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 18.359 ms
+
+[2022-04-02 10:40:39][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 21.888 ms
+
+[2022-04-02 10:41:55][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 33.745 ms
+
+[2022-04-02 10:47:46][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 36.366 ms
+
+[2022-04-02 10:48:45][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 39.358 ms
+
+[2022-04-02 10:50:24][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 19.051 ms
+
+[2022-04-02 10:50:25][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 1.397 ms
+
+[2022-04-02 10:50:26][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 1.308 ms
+
+[2022-04-02 10:50:26][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 1.503 ms
+
+[2022-04-02 10:52:51][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 34.521 ms
+
+[2022-04-02 10:54:04][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 52.775 ms
+
+[2022-04-02 10:58:27][[32minfo[39m] GRAPHQL query{getOneProvince(id:""){id name}} - 200 65.261 ms
+
+[2022-04-02 11:07:46][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 208.504 ms
+
+[2022-04-02 11:07:54][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 216.053 ms
+
+[2022-04-02 11:08:26][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 174.636 ms
+
+[2022-04-02 11:08:26][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - - - ms
+
+[2022-04-02 11:08:26][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - - - ms
+
+[2022-04-02 11:08:27][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 163.371 ms
+
+[2022-04-02 11:08:27][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - - - ms
+
+[2022-04-02 11:08:27][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 178.484 ms
+
+[2022-04-02 11:17:19][[32minfo[39m] GRAPHQL query($getOneDistrictId:String!){getOneDistrict(id:$getOneDistrictId){id name}} - 200 530.618 ms
+
+[2022-04-02 11:18:42][[32minfo[39m] GRAPHQL query{getOneProvince(id:"92"){id name}} - 200 49.613 ms
+
+[2022-04-02 11:20:36][[32minfo[39m] GRAPHQL query($getOneProvinceId:String!){getOneProvince(id:$getOneProvinceId){id name}} - 200 41.756 ms
+
+[2022-04-02 12:46:47][[32minfo[39m] GRAPHQL - - 200 47.671 ms
+
+[2022-04-02 12:47:03][[32minfo[39m] GRAPHQL query uith($getOneProvinceId:String!){getOneProvince(id:$getOneProvinceId){id name}} - 200 475.395 ms
+
+[2022-04-02 12:52:30][[32minfo[39m] GRAPHQL query name($id:String!){getOneProvince(id:$id){id name}} - 200 94.600 ms
+
+[2022-04-02 13:27:21][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){password role}} - 200 95.163 ms
+
+[2022-04-02 13:28:51][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){password role}} - 200 65.339 ms
+
+[2022-04-02 13:29:10][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){password role}} - 200 45.572 ms
+
+[2022-04-02 13:32:14][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){password role}} - 200 101.324 ms
+
+[2022-04-02 13:51:09][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 51.042 ms
+
+[2022-04-02 13:51:30][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 1.726 ms
+
+[2022-04-02 13:52:26][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 59.180 ms
+
+[2022-04-02 13:52:35][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 21.157 ms
+
+[2022-04-02 13:53:05][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 24.969 ms
+
+[2022-04-02 13:53:31][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 27.672 ms
+
+[2022-04-02 13:53:41][[32minfo[39m] GRAPHQL mutation($updateUserId:String!$data:UpdateUserInput){updateUser(id:$updateUserId data:$data){id updatedAt name phone}} - 200 79.722 ms
+
+[2022-04-02 15:43:26][[32minfo[39m] Connect to Redis
+[2022-04-02 15:44:07][[32minfo[39m] Set data to Redis
+[2022-04-02 15:44:07][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 263.798 ms
+
+[2022-04-02 15:44:11][[32minfo[39m] Get data from Redis
+[2022-04-02 15:44:11][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 5.187 ms
+
+[2022-04-02 15:44:15][[32minfo[39m] Get data from Redis
+[2022-04-02 15:44:15][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 4.700 ms
+
+[2022-04-02 16:00:58][[32minfo[39m] Connect to Redis
+[2022-04-02 16:01:05][[32minfo[39m] Connect to Redis
+[2022-04-02 16:01:16][[32minfo[39m] Connect to Redis
+[2022-04-02 16:02:45][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - - - ms
+
+[2022-04-02 16:03:46][[32minfo[39m] Connect to Redis
+[2022-04-02 16:04:03][[32minfo[39m] Set data to Redis
+[2022-04-02 16:04:03][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 73.699 ms
+
+[2022-04-02 16:04:37][[32minfo[39m] Set data to Redis
+[2022-04-02 16:04:37][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 63.404 ms
+
+[2022-04-02 16:04:40][[32minfo[39m] Get data from Redis
+[2022-04-02 16:04:40][[32minfo[39m] GRAPHQL query GetAllProvinces{getAllProvinces{id name}} - 200 5.733 ms
+
+[2022-04-02 16:11:02][[32minfo[39m] Connect to Redis
+[2022-04-02 16:13:21][[32minfo[39m] Connect to Redis
+[2022-04-02 19:30:38][[32minfo[39m] Connect to Redis
+[2022-04-02 19:31:57][[32minfo[39m] Connect to Redis
+[2022-04-02 19:32:22][[32minfo[39m] Connect to Redis
+[2022-04-02 19:32:41][[32minfo[39m] Connect to Redis
+[2022-04-02 19:32:46][[32minfo[39m] Connect to Redis
+[2022-04-02 19:35:10][[32minfo[39m] Connect to Redis
+[2022-04-02 19:35:27][[32minfo[39m] Connect to Redis
+[2022-04-02 19:35:42][[32minfo[39m] Set data to Redis
+[2022-04-02 19:35:42][[32minfo[39m] GRAPHQL query{getAllProvinces{id name view}} - 200 70.382 ms
+
+[2022-04-02 19:35:50][[32minfo[39m] Get data from Redis
+[2022-04-02 19:35:50][[32minfo[39m] GRAPHQL query{getAllProvinces{id name view}} - 200 13.527 ms
+
+[2022-04-02 20:28:03][[32minfo[39m] Connect to Redis
+[2022-04-02 20:34:14][[32minfo[39m] Connect to Redis
+[2022-04-02 20:40:52][[32minfo[39m] Connect to Redis
+[2022-04-02 20:41:09][[32minfo[39m] Connect to Redis
+[2022-04-02 20:43:11][[32minfo[39m] Connect to Redis
+[2022-04-02 21:00:53][[32minfo[39m] Connect to Redis
+[2022-04-02 21:04:31][[32minfo[39m] Connect to Redis
+[2022-04-02 21:04:47][[32minfo[39m] Set data to Redis
+[2022-04-02 21:04:47][[32minfo[39m] GRAPHQL query{getAllProvinces{id name view}} - 200 131.601 ms
+
+[2022-04-03 08:12:41][[32minfo[39m] Connect to Redis
+[2022-04-04 11:20:58][[32minfo[39m] Connect to Redis
+[2022-04-04 11:22:00][[32minfo[39m] Connect to Redis
+[2022-04-04 11:27:34][[32minfo[39m] Connect to Redis
+[2022-04-04 11:28:48][[32minfo[39m] Connect to Redis
+[2022-04-04 14:14:42][[32minfo[39m] Connect to Redis
+[2022-04-04 14:15:25][[32minfo[39m] Connect to Redis
+[2022-04-04 14:15:31][[32minfo[39m] Connect to Redis
+[2022-04-04 14:17:22][[32minfo[39m] Connect to Redis
+[2022-04-04 14:17:29][[32minfo[39m] Connect to Redis
+[2022-04-04 14:18:07][[32minfo[39m] Connect to Redis
+[2022-04-04 14:18:46][[32minfo[39m] Connect to Redis
+[2022-04-04 14:19:04][[32minfo[39m] Connect to Redis
+[2022-04-04 14:20:23][[32minfo[39m] Connect to Redis
+[2022-04-04 14:21:18][[32minfo[39m] Connect to Redis
+[2022-04-04 14:21:44][[32minfo[39m] Connect to Redis
+[2022-04-04 14:24:41][[32minfo[39m] GRAPHQL - - 200 3.861 ms
+
+[2022-04-04 14:27:30][[32minfo[39m] GRAPHQL query GetAllUsers($query:QueryInput){getAllUsers(query:$query){users{id name}pagination{limit page}}} - 200 90.309 ms
+
+[2022-04-05 15:48:49][[32minfo[39m] Connect to Redis
+[2022-04-05 15:54:24][[32minfo[39m] Connect to Redis
+[2022-04-05 15:54:38][[32minfo[39m] Connect to Redis
+[2022-04-05 15:57:42][[32minfo[39m] Connect to Redis
+[2022-04-05 15:57:55][[32minfo[39m] Connect to Redis
+[2022-04-05 15:58:13][[32minfo[39m] Connect to Redis
+[2022-04-05 16:02:48][[32minfo[39m] Connect to Redis
+[2022-04-05 16:03:51][[32minfo[39m] Connect to Redis
+[2022-04-05 16:04:11][[32minfo[39m] Connect to Redis
+[2022-04-05 16:04:41][[32minfo[39m] Connect to Redis
+[2022-04-05 16:06:29][[32minfo[39m] Connect to Redis
+[2022-04-05 16:06:48][[32minfo[39m] Connect to Redis
+[2022-04-05 16:42:03][[32minfo[39m] Connect to Redis
+[2022-04-07 08:29:11][[32minfo[39m] Connect to Redis
+[2022-04-07 08:29:18][[32minfo[39m] GRAPHQL - - 200 0.986 ms
+
+[2022-04-07 08:33:52][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginByFireBase(accessToken:$accessToken){user{id username name}token}} - 200 903.950 ms
+
+[2022-04-07 08:35:32][[32minfo[39m] Connect to Redis
+[2022-04-07 08:35:51][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginByFireBase(accessToken:$accessToken){user{id username name}token}} - 200 519.430 ms
+
+[2022-04-07 09:55:07][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginByFireBase(accessToken:$accessToken){user{id username name}token}} - 400 66.130 ms
+
+[2022-04-07 10:01:35][[32minfo[39m] GRAPHQL - - 200 1.008 ms
+
+[2022-04-07 10:17:33][[32minfo[39m] Connect to Redis
+[2022-04-07 10:18:33][[32minfo[39m] Connect to Redis
+[2022-04-07 10:18:55][[32minfo[39m] Connect to Redis
+[2022-04-07 10:20:51][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 60.198 ms
+
+[2022-04-07 10:29:20][[32minfo[39m] GRAPHQL mutation LoginByFireBase($accessToken:String!){loginByFireBase(accessToken:$accessToken){token}} - 200 1859.196 ms
+
+[2022-04-07 10:29:38][[32minfo[39m] GRAPHQL mutation LoginByFireBase($accessToken:String!){loginByFireBase(accessToken:$accessToken){token}} - 200 2.018 ms
+
+[2022-04-07 10:31:38][[32minfo[39m] GRAPHQL mutation LoginByFireBase($accessToken:String!){loginByFireBase(accessToken:$accessToken){token}} - 200 151.228 ms
+
+[2022-04-07 10:32:18][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 52.587 ms
+
+[2022-04-07 10:33:44][[32minfo[39m] Connect to Redis
+[2022-04-07 10:33:57][[32minfo[39m] Connect to Redis
+[2022-04-07 10:34:16][[32minfo[39m] Connect to Redis
+[2022-04-07 10:41:46][[32minfo[39m] Connect to Redis
+[2022-04-07 10:42:07][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 25.655 ms
+
+[2022-04-07 10:43:03][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 2.324 ms
+
+[2022-04-07 10:45:09][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 1.386 ms
+
+[2022-04-07 10:45:20][[32minfo[39m] GRAPHQL mutation LoginByFireBase($accessToken:String!){loginByFireBase(accessToken:$accessToken){token}} - 200 522.075 ms
+
+[2022-04-07 10:46:04][[32minfo[39m] GRAPHQL mutation LoginByFireBase($accessToken:String!){loginByFireBase(accessToken:$accessToken){token}} - 200 60.435 ms
+
+[2022-04-07 10:46:08][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 1.445 ms
+
+[2022-04-07 10:47:26][[32minfo[39m] Connect to Redis
+[2022-04-07 10:47:37][[32minfo[39m] Connect to Redis
+[2022-04-07 10:48:39][[32minfo[39m] Connect to Redis
+[2022-04-07 10:48:52][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 155.951 ms
+
+[2022-04-07 10:49:32][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 29.206 ms
+
+[2022-04-07 10:56:52][[32minfo[39m] Connect to Redis
+[2022-04-07 10:57:54][[32minfo[39m] Connect to Redis
+[2022-04-07 10:58:02][[32minfo[39m] Connect to Redis
+[2022-04-07 10:58:11][[32minfo[39m] Connect to Redis
+[2022-04-07 10:58:29][[32minfo[39m] Connect to Redis
+[2022-04-07 10:58:47][[32minfo[39m] Connect to Redis
+[2022-04-09 16:36:28][[32minfo[39m] Connect to Redis
+[2022-04-09 16:36:57][[32minfo[39m] GRAPHQL - - 200 5.816 ms
+
+[2022-04-09 16:37:06][[32minfo[39m] GRAPHQL query{getAllUsers{users{id name}}} - 200 46.970 ms
+
