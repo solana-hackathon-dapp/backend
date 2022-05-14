@@ -1,6 +1,6 @@
 import {ApolloServer, gql} from "apollo-server-express";
 import {Application, Request} from "express";
-import {loadGraphqlSchema, loadGraphqlResolver, loadGraphql} from "./autoloader";
+import {loadGraphqlSchema, loadGraphqlResolver, loadGraphql} from "../autoloader";
 import graphqlTypeDate from "graphql-type-datetime";
 import _ from "lodash";
 import minifyGraphql from "minify-graphql-loader";

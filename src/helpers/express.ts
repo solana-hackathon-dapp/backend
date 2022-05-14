@@ -5,7 +5,7 @@ import morgan from "morgan";
 
 const app = express();
 
-export function startServer(){
+export function middleWare(){
     app.use(json());
     app.use(cors());
     app.use(morgan(':method :url :status :res[content-length] - :response-time ms'));
@@ -17,9 +17,6 @@ export function startServer(){
     })
     app.post("/post", (req, res) => {
         res.json(req.body);
-    })
-    app.listen(3000, () => {
-        console.log("start express on http://localhost:3000");    
     })
 }
 export default app;

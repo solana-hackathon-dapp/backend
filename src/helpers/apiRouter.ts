@@ -1,5 +1,5 @@
 import {Application, Request, Response, Router} from "express";
-import { loadRouter } from "./graphql/autoloader";
+import { loadRouter } from "./autoloader";
 import logger from "./logger";
 
 export class APIRouter{
