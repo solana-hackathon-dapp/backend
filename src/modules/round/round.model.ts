@@ -4,25 +4,30 @@ import { BaseDocument } from "../../base/model";
 
 
 export type Round = BaseDocument & {
-    statusCard: string;
-    cardID: number;
-    payOutUp: number;
-    payOutDown: number;
+    isPrev: boolean;
+    id: string;
+    startTimestamp: number;
+    lockTimestamp: number;
+    closeTimestamp: number;
     lockPrice: number;
-    lastPrice: number;
-    deviant: number;
-    pricePool: number;
+    closePrice: number;
+    totalAmountPool: number;
+    betUpAmount: number;
+    betDownAmount: number;
+    rewardAmount: number;
 }
 
 const roundSchema = new Schema({
-    statusCard: {type: String, required: true}, // LIVE, LAST, NEXT, EXPIRED
-    cardID: {type: Number, required: true},
-    payOutUp: {type: Number, required: true},
-    payOutDown: {type: Number, required: true},
-    lockPrice: {type: Number, required: true},
-    lastPrice: {type: Number, required: true},
-    deviant: {type: Number, required: true},
-    pricePool: {type: Number, required: true},
+    isPrev: {type: Boolean, required: true},
+    id: {type: String, required: true},
+    startTimestamp: {type: Date, required: true},
+    closeTimestamp: {type: Date},
+    lockPrice: {type: Number},
+    closePrice: {type: Number},
+    totalAmountPool: {type: Number, required: true},
+    betUpAmount: {type: Number, required: true},
+    betDownAmount: {type: Number,  required: true},
+    rewardAmount: {type: Number, required: true}
 })
 
 export const RoundModel = Mongo.model<Round>("Round", roundSchema);
